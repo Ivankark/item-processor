@@ -1,0 +1,31 @@
+.header {
+    margin-top: 30px;
+}
+.warning {
+    margin-top: 10px;
+    padding:10px;
+    font-size:2rem;
+    background: #F08080;
+    color: floralwhite;
+    border:1px solid red;
+    opacity: 1;
+    transition-property: opacity;//какое свойство анимировать
+    transition-duration: 2s;//длительность анимации
+    transition-timing-function: ease;//на сколько быстро должно изменяться значение стилевого свойства для которого применяется эффект перехода
+}
+.data {
+    margin-top: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    list-style-type: none;
+    padding:10px;
+    border:1px solid #ced4da;
+}
+.close {
+    position: relative;
+    right: -10px;
+    font-size: 2rem;
+}
+.close:focus {outline: none;}
+
+.red{color:red;}
