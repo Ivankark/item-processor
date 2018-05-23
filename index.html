@@ -29,7 +29,30 @@
                 <div class="col-sm-12 text-left"><button type="submit" class="btn btn-primary" id="submit">Отправить</button></div>
              </div>
         <!--</form>-->
-</div>
+        <div class="wrap-toggle">
+            <span id="toggle">Справка</span>
+        </div>
+        <div id="collaps">
+            <h1>Условные обозначения</h1>
+            <table class="table-colors">
+              <tbody>
+               <tr>
+                    <td class="yellow"></td>
+                    <td>Жёлтый. Этим цветом выделяются все найденные кириллические символы и спецсимволы которые недопустипы в названии номенклатуры. Дополнительно символы окрашиваются в красный цвет.</td>
+                </tr>
+                <tr>
+                    <td class="red">&nbsp;</td>
+                    <td>Красный.</td>
+                </tr>
+                <tr>
+                    <td class="purple">&nbsp;</td>
+                    <td>Фиолетовый.</td>
+                </tr>
+              </tbody>
+            </table>
+            <button type="button" class="close" aria-label="Close" onclick="removeCollaps(this);"><span aria-hidden="true">&times;</span></button>
+        </div>
+</div><!--end container-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
